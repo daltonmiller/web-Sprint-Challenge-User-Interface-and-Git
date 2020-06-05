@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -28,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -65,7 +67,46 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.header{
+    max-width: 100%;
+    height: 150px;
+    background-color:white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    margin-left: 250px;
+}
+.header nav{
+    margin-right: 250px;
+  
+}
+.header .home{
+    color: black;
+    margin:35px;
 
+}
+.header .about{
+    color: black;
+    margin:35px;
+}
+.header .products{
+    color: black;
+    margin:35px;
+}
+.header .blog{
+    color: black;
+    margin:35px;
+}.header .contact{
+    color: black;
+    margin:35px;
+}
+.header-img img{
+    margin-left: 250px;
+    margin-right: 250px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +118,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 15px;
 }
 
 .top-content .text-container {
@@ -101,17 +143,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+#teal{
+    background-color: teal;
+}
+#gold{
+background-color: gold;
+}
+#cadetblue{
+background-color: cadetblue;
+}
+#coral{
+background-color: coral;
+}
+#crimson{
+background-color: crimson;
+}
+#forestgreen{
+background-color: forestgreen;
+}
+#darkorchid{
+background-color: darkorchid;
+}
+#hotpink{
+background-color: hotpink;
+}
+#indigo{
+background-color: indigo;
+}
+#dodgerblue{
+background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +213,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.content{
+    display:flex;
+    
+
+}
+.content  img{
+    width: 300px;
+    display:flex
+}
+.content .words{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 2px dotted black;
+    padding: 15px;
+}
+
+
+.learn{
+     color: black;
+    border: 1px solid black;
+    padding: 6px;
+    max-width: 100px;
+    border-radius: 15px;
+   
+}
+.almost{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 15px;
+}
+#lit{
+    color: paleturquoise;
+    background-color: plum;
+    border: 4px solid grey;
+
+
+}
+#lit:hover{
+    font-size: 300%;
+    color: yellowgreen;
+    background-color: tomato;
+    border: 12px dotted purple
+
 }
