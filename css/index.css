@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 .header{
     max-width: 100%;
     height: 150px;
@@ -259,4 +260,12 @@ footer nav a {
     background-color: tomato;
     border: 12px dotted purple
 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
 }
